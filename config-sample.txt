@@ -1,0 +1,13 @@
+[Main]
+source = ../webcam
+conf_thres = 0.3
+blurratio = 20
+compression = 80
+dest = ../processed
+save_org = True
+rotate = 270
+save_txt = True
+hidedetarea = True
+delete_org = True
+
+[Unset]

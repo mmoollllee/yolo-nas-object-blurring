@@ -1,0 +1,14 @@
+<View>
+   <Image name="image" value="$image"/>
+   <Header value="RectangleLabels"/>
+   <RectangleLabels name="label" toName="image">
+      <Label value="person" background="#FFA39E"/>
+      <Label value="bike" background="#D4380D"/>
+      <Label value="car" background="#FFC069"/>
+      <Label value="van" background="#AD8B00"/>
+      <Label value="pickup" background="#D3F261"/>
+      <Label value="bus" background="#389E0D"/>
+      <Label value="truck" background="#5CDBD3"/>
+      <Label value="motorbike" background="#096DD9"/>
+   </RectangleLabels>
+</View>

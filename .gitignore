@@ -1,1 +1,11 @@
 .DS_Store
+*.zip
+.lock
+/input/*
+/output/*
+__pycache__
+*.pt
+log.txt
+config.txt
+
+!.gitkeep
