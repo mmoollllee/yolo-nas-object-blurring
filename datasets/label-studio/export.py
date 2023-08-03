@@ -6,7 +6,7 @@ from label_studio_converter import Converter
 LABEL_STUDIO_URL = os.getenv('LABEL_STUDIO_URL', default='http://localhost:8080')
 API_KEY = "xxxxx"
 PROJECT_ID = int("7")
-VIEW_ID = int("18")
+VIEW_ID = False # int("18")
 
 # connect to Label Studio
 ls = Client(url=LABEL_STUDIO_URL, api_key=API_KEY)
